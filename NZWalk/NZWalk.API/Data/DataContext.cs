@@ -11,9 +11,9 @@ namespace NZWalk.API.Data
         }
 
         // tellling EF that if a table doenst exist please create a table
-        DbSet<Region> Regions { get; set; }
-        DbSet<Walk> Walks { get; set; }
-        DbSet<WalkDiffculty> WalkDiffculties { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<Walk> Walks { get; set; }
+        public DbSet<WalkDiffculty> WalkDiffculties { get; set; }
 
     }
 }
